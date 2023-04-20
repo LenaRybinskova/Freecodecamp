@@ -92,3 +92,11 @@ const myArray = ["Lena", [33,23]];
 
 const myArray = [50, 60, 70];
 let myData = myArray[0];
+
+
+
+// Setup
+const myArray = [18, 64, 99];
+
+// Only change code below this line
+myArray[0]=45;
