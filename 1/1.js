@@ -15,3 +15,7 @@ let c = 4.6;
 a *= 5;
 b *=3;
 c *= 10
+
+let myStr="This is the first sentence.";
+myStr +=" ";
+myStr += "This is the second sentence."
