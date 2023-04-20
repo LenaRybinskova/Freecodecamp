@@ -83,3 +83,7 @@ const wordBlanks = "I have a " + myAdjective + " "+ myNoun +"." +"And he "+myVer
 
 // Only change code below this line
 const myArray = ["Lena",  33];
+
+
+// Only change code below this line
+const myArray = ["Lena", [33,23]];
