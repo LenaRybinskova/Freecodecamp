@@ -144,5 +144,11 @@ const myList = [["milk", 2],["bread", 1],["potatos", 5],["tomatos", 2],["chicken
 function reusableFunction() {
     console.log("Hi World")
 }
-
 reusableFunction();
+
+
+
+function functionWithArgs(a,b) {
+    console.log(a+b)
+}
+functionWithArgs(5,5)
