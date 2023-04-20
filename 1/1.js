@@ -137,3 +137,12 @@ myArray.unshift(["Paul", 35])
 
 
 const myList = [["milk", 2],["bread", 1],["potatos", 5],["tomatos", 2],["chicken", 2],];
+
+
+//------------------------------
+// ФУНКЦИИ
+function reusableFunction() {
+    console.log("Hi World")
+}
+
+reusableFunction();
