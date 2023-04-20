@@ -23,3 +23,8 @@ myStr += "This is the second sentence."
 // Only change code below this line
 const myName = "Lena";
 const myStr = "My name is "+ myName + " and I am well!";
+
+// Change code below this line
+const someAdjective = "good";
+let myStr = "Learning to code is ";
+myStr += someAdjective
