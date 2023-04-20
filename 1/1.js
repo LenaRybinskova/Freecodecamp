@@ -87,3 +87,8 @@ const myArray = ["Lena",  33];
 
 // Only change code below this line
 const myArray = ["Lena", [33,23]];
+
+
+
+const myArray = [50, 60, 70];
+let myData = myArray[0];
