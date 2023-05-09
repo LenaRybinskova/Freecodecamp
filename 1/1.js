@@ -7,41 +7,41 @@ a -= 6;
 b -= 15;
 c -= 1;
 
-let a = 5;
-let b = 12;
-let c = 4.6;
+// let a = 5;
+// let b = 12;
+// let c = 4.6;
 
 // Only change code below this line
 a *= 5;
 b *= 3;
 c *= 10
 
-let myStr = "This is the first sentence.";
-myStr += " ";
-myStr += "This is the second sentence."
+// let myStr = "This is the first sentence.";
+// myStr += " ";
+// myStr += "This is the second sentence."
 
 // Only change code below this line
-const myName = "Lena";
-const myStr = "My name is " + myName + " and I am well!";
+// const myName = "Lena";
+// const myStr = "My name is " + myName + " and I am well!";
 
 // Change code below this line
-const someAdjective = "good";
-let myStr = "Learning to code is ";
-myStr += someAdjective
+// const someAdjective = "good";
+// let myStr = "Learning to code is ";
+// myStr += someAdjective
 
 // Setup
-let lastNameLength = 0;
-const lastName = "Lovelace";
+// let lastNameLength = 0;
+// const lastName = "Lovelace";
 
 // Only change code below this line
-lastNameLength = lastName.length;
+// lastNameLength = lastName.length;
 
 // Setup
-let firstLetterOfLastName = "";
-const lastName = "Lovelace";
+// let firstLetterOfLastName = "";
+// const lastName = "Lovelace";
 
 // Only change code below this line
-firstLetterOfLastName = lastName[0]; // Change this line
+// firstLetterOfLastName = lastName[0]; // Change this line
 
 // Setup
 let myStr = "Jello World";
@@ -52,75 +52,75 @@ myStr = "Hello World"; // Change this line
 
 
 // Setup
-const lastName = "Lovelace";
+// const lastName = "Lovelace";
 
 // Only change code below this line
-const thirdLetterOfLastName = lastName[2]; // Change this line
+// const thirdLetterOfLastName = lastName[2]; // Change this line
 
 
 // Setup
-const lastName = "Lovelace";
+// const lastName = "Lovelace";
 
 // Only change code below this line
-const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
-
-// Setup
-const lastName = "Lovelace";
-
-// Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
-
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly";
-
-// Only change code below this line
-const wordBlanks = "I have a " + myAdjective + " " + myNoun + "." + "And he " + myVerb + " " + myAdverb; // Change this line
-// Only change code above this line
-
-
-// Only change code below this line
-const myArray = ["Lena", 33];
+// const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+// 
+// // Setup
+// const lastName = "Lovelace";
+// 
+// // Only change code below this line
+// const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+// 
+// const myNoun = "dog";
+// const myAdjective = "big";
+// const myVerb = "ran";
+// const myAdverb = "quickly";
+// 
+// // Only change code below this line
+// const wordBlanks = "I have a " + myAdjective + " " + myNoun + "." + "And he " + myVerb + " " + myAdverb; // Change this line
+// // Only change code above this line
 
 
-// Only change code below this line
-const myArray = ["Lena", [33, 23]];
-
-
-const myArray = [50, 60, 70];
-let myData = myArray[0];
-
-
-// Setup
-const myArray = [18, 64, 99];
-
-// Only change code below this line
-myArray[0] = 45;
-
-
-const myArray = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [[10, 11, 12], 13, 14],
-];
-
-const myData = myArray[2][1];
-
-
-// Setup
-const myArray = [["John", 23], ["cat", 2]];
+// // Only change code below this line
+// const myArray = ["Lena", 33];
+// 
+// 
+// // Only change code below this line
+// const myArray = ["Lena", [33, 23]];
+// 
+// 
+// const myArray = [50, 60, 70];
+// let myData = myArray[0];
+// 
+// 
+// // Setup
+// const myArray = [18, 64, 99];
 
 // Only change code below this line
-const removedFromMyArray = myArray.pop();
+// myArray[0] = 45;
 
 
-// Setup
-const myArray = [["John", 23], ["dog", 3]];
-
-// Only change code below this line
-let removedFromMyArray = myArray.shift()
+// const myArray = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9],
+//     [[10, 11, 12], 13, 14],
+// ];
+// 
+// const myData = myArray[2][1];
+// 
+// 
+// // Setup
+// const myArray = [["John", 23], ["cat", 2]];
+// 
+// // Only change code below this line
+// const removedFromMyArray = myArray.pop();
+// 
+// 
+// // Setup
+// const myArray = [["John", 23], ["dog", 3]];
+// 
+// // Only change code below this line
+// let removedFromMyArray = myArray.shift()
 
 
 // Setup
@@ -136,24 +136,24 @@ const myList = [["milk", 2], ["bread", 1], ["potatos", 5], ["tomatos", 2], ["chi
 
 //------------------------------
 // ФУНКЦИИ
-function reusableFunction() {
-    console.log("Hi World")
-}
-
-reusableFunction();
-
-
-function functionWithArgs(a, b) {
-    console.log(a + b)
-}
-
-functionWithArgs(5, 5)
-
-
-function timesFive(a) {
-    return a*5
-}
-timesFive(5)
+// function reusableFunction() {
+//     console.log("Hi World")
+// }
+// 
+// reusableFunction();
+// 
+// 
+// function functionWithArgs(a, b) {
+//     console.log(a + b)
+// }
+// 
+// functionWithArgs(5, 5)
+// 
+// 
+// function timesFive(a) {
+//     return a*5
+// }
+// timesFive(5)
 
 
 
@@ -163,11 +163,11 @@ function myLocalScope() {
     var myVar=5
     console.log('inside myLocalScope', myVar);
 }
-myLocalScope();
+// myLocalScope();
 
 // Run and check the console
 // myVar is not defined outside of myLocalScope
-console.log('outside myLocalScope', myVar);
+// console.log('outside myLocalScope', myVar);
 
 
 // Setup
@@ -198,8 +198,8 @@ function addFive() {
 
 // Only change code above this line
 
-addThree();
-addFive();
+// addThree();
+// addFive();
 
 
 // Setup
@@ -225,9 +225,9 @@ function nextInLine(arr, item) {
 let testArr = [1, 2, 3, 4, 5];
 
 // Display code
-console.log("Before: " + JSON.stringify(testArr));
-console.log(nextInLine(testArr, 6));
-console.log("After: " + JSON.stringify(testArr));
+// console.log("Before: " + JSON.stringify(testArr));
+// console.log(nextInLine(testArr, 6));
+// console.log("After: " + JSON.stringify(testArr));
 
 
 function welcomeToBooleans() {
@@ -259,5 +259,13 @@ function testEqual(val) {
     }
     return "Not Equal";
 }
+// testEqual(10);
 
-testEqual(10);
+// Setup
+function testEqual(val) {
+    if (val===7) { // Change this line
+        return "Equal";
+    }
+    return "Not Equal";
+}
+console.log(testEqual(10))
