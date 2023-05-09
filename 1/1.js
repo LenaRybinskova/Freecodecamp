@@ -365,5 +365,15 @@ function testLogicalOr(val) {
 
     return "Inside";
   }
-  
-  console.log(testLogicalOr(10))
+//   console.log(testLogicalOr(10))
+
+function testElse(val) {
+    let result = "";
+
+    if (val > 5) {
+      result = "Bigger than 5";
+    }else {
+      result = "5 or Smaller";
+    }
+  }
+//   console.log(testElse(4))
