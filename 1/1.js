@@ -348,3 +348,13 @@ function testLessOrEqual(val) {
     return "More Than 24";
   }
 //   testLessOrEqual(10);
+
+function testLogicalAnd(val) {
+    // Only change code below this line
+  if(val<=50 && val>=25){
+    return "Yes";
+    }
+  return "No";
+  }
+  
+  console.log(testLogicalAnd(10))
