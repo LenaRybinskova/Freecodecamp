@@ -523,3 +523,8 @@ function chainToSwitch(val) {
   return answer;
 }
 // chainToSwitch(7);
+
+function isLess(a, b) {
+return a < b
+}
+// isLess(10, 15);
