@@ -626,3 +626,29 @@ function checkObj(obj, checkProp) {
 return obj.hasOwnProperty(checkProp)? obj[checkProp] :"Not Found"
 }
 // console.log(checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift"))
+
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+const myMusic2={
+    "artist": "Billy Joel2",
+    "title": "Piano Man2",
+    "release_year": 19732,
+    "formats": [
+      "CD2",
+      "8T2",
+      "LP2"
+    ],
+    "gold2": true
+  }
+myMusic.push(myMusic2)
