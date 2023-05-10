@@ -562,3 +562,13 @@ const testObj2 = {
   "my side": "veggies",
 };
 const entreeValue = testObj2["an entree"];   // Change t
+
+
+// Setup
+const testObj3 = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+const playerNumber = 16;  // Change this line
+const player = testObj3[playerNumber];   // Change this line
