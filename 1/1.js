@@ -537,3 +537,11 @@ if(a<0 || b<0){
   return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 // console.log(abTest(9,9))
+
+const myDog = {
+  name: "lll",
+  legs:4,
+  tails:1,
+  friends:["jjjj","hhh"]
+
+};
