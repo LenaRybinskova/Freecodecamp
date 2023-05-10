@@ -448,9 +448,23 @@ function caseInSwitch(val) {
         answer="delta"
         break;              
   }
-  
-  
     // Only change code above this line
     return answer;
   }
-  caseInSwitch(1);
+//   caseInSwitch(1);
+
+
+// function countSheeps(arrayOfSheep) {
+// 
+//   return res=(arrayOfSheep.filter((el)=>el===true)).length
+// }
+
+function countSheeps(arrayOfSheeps) {
+  return arrayOfSheeps.filter(Boolean).length;
+}
+// console.log(countSheeps([true,  true,  true,  false,
+//   true,  true,  true,  true ,
+//   true,  false, true,  false,
+//   true,  false, false, true ,
+//   true,  true,  true,  true ,
+//   false, false, true,  true]))
