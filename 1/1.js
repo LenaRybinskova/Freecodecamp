@@ -575,10 +575,18 @@ const player = testObj3[playerNumber];   // Change this line
 
 
 // Setup
-const myDog = {
-  "name": "Coder",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["freeCodeCamp Campers"]
-};
-myDog.name="Happy Coder"
+// const myDog = {
+//   "name": "Coder",
+//   "legs": 4,
+//   "tails": 1,
+//   "friends": ["freeCodeCamp Campers"]
+// };
+// myDog.name="Happy Coder"
+
+// const myDog = {
+//   "name": "Happy Coder",
+//   "legs": 4,
+//   "tails": 1,
+//   "friends": ["freeCodeCamp Campers"]
+// };
+// myDog.bark="gaf"
