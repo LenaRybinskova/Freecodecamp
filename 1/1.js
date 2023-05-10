@@ -554,3 +554,11 @@ const testObj = {
 };
 const hatValue = testObj.hat;      // Change this line
 const shirtValue = testObj.shirt;    // Change this line
+
+
+
+const testObj2 = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+};
+const entreeValue = testObj2["an entree"];   // Change t
