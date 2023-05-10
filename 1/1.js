@@ -538,7 +538,7 @@ if(a<0 || b<0){
 }
 // console.log(abTest(9,9))
 
-const myDog = {
+const myDog0 = {
   name: "lll",
   legs:4,
   tails:1,
@@ -590,3 +590,15 @@ const player = testObj3[playerNumber];   // Change this line
 //   "friends": ["freeCodeCamp Campers"]
 // };
 // myDog.bark="gaf"
+
+// Setup
+const myDog5 = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog5.tails
