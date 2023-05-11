@@ -652,3 +652,18 @@ const myMusic2={
     "gold2": true
   }
 myMusic.push(myMusic2)
+
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const a1 = myStorage["car"]["inside"]["glove box"]
+const gloveBoxContents = a1;
