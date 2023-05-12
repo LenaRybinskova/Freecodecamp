@@ -763,3 +763,7 @@ while(i>=0){
 }
 // console.log(myArray5)
 
+for (let i=1; i<6; i++){
+  myArray.push(i)
+}
+
