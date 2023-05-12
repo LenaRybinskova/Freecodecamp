@@ -770,3 +770,11 @@ for (let i=1; i<6; i++){
 for(let i=1; i<10; i+=2){
   myArray.push(i)
 }
+
+// Setup
+const myArray6 = [];
+
+// Only change code below this line
+for(let i=9; i>=1; i-=2){
+  myArray6.push(i)
+}
