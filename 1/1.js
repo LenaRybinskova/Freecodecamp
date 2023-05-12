@@ -788,3 +788,16 @@ let total=0;
 for (let i=0; i<myArr.length;i++){
   total+=myArr[i]
 }
+
+
+function multiplyAll(arr) {
+  let product = 1;
+let res=1;
+for(let i=0; i<arr.length; i++){
+for(j=0; j<arr[i].length; j++){
+  res*=arr[i][j]
+}
+}
+  return res;
+}
+// console.log(multiplyAll([[5, 1], [0.2, 4, 0.5], [3, 9]]))
