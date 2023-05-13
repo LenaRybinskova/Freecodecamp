@@ -801,3 +801,9 @@ for(j=0; j<arr[i].length; j++){
   return res;
 }
 // console.log(multiplyAll([[5, 1], [0.2, 4, 0.5], [3, 9]]))
+
+do{
+  myArray.push(i);
+  i++;
+}
+while (i < 5) 
