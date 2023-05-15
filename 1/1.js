@@ -884,4 +884,17 @@ function randomFraction() {
 function randomWholeNum() {
   return Math.floor(Math.random() * 10);
 }
-console.log(randomWholeNum())
+// console.log(randomWholeNum())
+
+
+function convertToInteger(str) {
+
+return parseInt(str)
+}
+// console.log(convertToInteger("007"));
+
+
+function convertToInteger(str) {
+  return parseInt(str, 2);
+  }
+  // convertToInteger("10011");
